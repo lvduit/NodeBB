@@ -11,7 +11,9 @@
   "main": "app.js",
   "scripts": {
     "start": "node loader.js",
-    "test": "mocha ./tests -t 10000"
+    "test": "mocha ./tests -t 10000",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "async": "~1.4.2",
@@ -74,7 +76,8 @@
     "underscore.deep": "^0.5.1",
     "validator": "^4.0.5",
     "winston": "^1.0.1",
-    "xregexp": "~2.0.0"
+    "xregexp": "~2.0.0",
+    "snyk": "^1.192.3"
   },
   "devDependencies": {
     "mocha": "~1.13.0",
@@ -103,5 +106,6 @@
       "email": "baris@nodebb.org",
       "url": "https://github.com/barisusakli"
     }
-  ]
+  ],
+  "snyk": true
 }
