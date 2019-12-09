@@ -43,7 +43,7 @@
     "nodebb-plugin-composer-default": "1.0.13",
     "nodebb-plugin-dbsearch": "0.2.16",
     "nodebb-plugin-emoji-extended": "0.4.9",
-    "nodebb-plugin-markdown": "4.0.5",
+    "nodebb-plugin-markdown": "8.11.0",
     "nodebb-plugin-mentions": "1.0.1",
     "nodebb-plugin-soundpack-default": "0.1.4",
     "nodebb-plugin-spam-be-gone": "0.4.1",
